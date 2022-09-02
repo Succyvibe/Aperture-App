@@ -1,10 +1,20 @@
 <template>
-  <nav>
+  <SignUp />
+  <!-- <nav>
     <router-link to="/">Home</router-link> |
     <router-link to="/about">About</router-link>
-  </nav>
-  <router-view/>
+  </nav> -->
+  <router-view />
 </template>
+
+<script>
+import SignUp from "./components/SignUp.vue";
+export default {
+  components: {
+    SignUp,
+  },
+};
+</script>
 
 <style>
 #app {
